@@ -21,19 +21,19 @@ http://twitter.com/NerdfighterSean
 
 ### No address found? Replace tip links with contact link
 
-//get user from the page
+get user from the page
 
     var user = "<span class="screen-name"><s>@</s>NerdfighterSean</span>"
 
-//form the message
+form the message
 
     var message = " I want to tip you "+amount+" bitcoins but couldn't find an address on your profile. Let me know if you get one."
 
-//the url to compose the message
+the url to compose the message
 
     var url = "https://twitter.com/intent/tweet?text="
 
-//put it all together and url encode it
+put it all together and url encode it
 
     var href = url + "@" + user + message
 
@@ -77,7 +77,7 @@ put it all together and url encode it
 
 https://www.youtube.com/inbox?action_compose=1&to_users=EdandEthan&to_subject=x&to_message=x
 
-This requires special handling.  When on this page, https://www.youtube.com/inbox?action_compose=1 
+This requires special handling.  Youtube doesn't support the subject and message in the url.  When on this page, https://www.youtube.com/inbox?action_compose=1 
 
 see if the url contains the parameter to_subject.  If so, take the parameter from the url and fill out the field.
 
