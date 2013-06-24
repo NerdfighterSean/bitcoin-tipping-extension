@@ -21,7 +21,7 @@
 * There's also no list of things that you have financially supported in the first place.
 
 ##No Minimums
-   * With Flattr you must deposit at least 5 EUR.
+* With Flattr you must deposit at least 5 EUR.
 * You can only withdraw 10 EUR or more.
 	
 ##Decentralized
