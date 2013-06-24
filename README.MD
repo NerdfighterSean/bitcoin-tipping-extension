@@ -1,6 +1,6 @@
-Bitcoin Tipping Browser Extension
+# Bitcoin Tipping Browser Extension
 
-Part 1: Make text or linked bitcoin addresses in the browser easier to tip.
+##Part 1: Make text or linked bitcoin addresses in the browser easier to tip.
 
 Use regex to detect bitcoin addresses in the browser.  
 
@@ -20,7 +20,7 @@ Example: http://imgur.com/t3csynO,RvkWzKP#0
 
 
 
-Part 2: Add a "Tip Later" option and keep track of these internally and remind the user to tip later.
+##Part 2: Add a "Tip Later" option and keep track of these internally and remind the user to tip later.
 
 When the user clicks on "Tip Later", all of the tip details should be stored for later:
     contact type (bitcoin)
@@ -43,7 +43,7 @@ Example Tipping Page: http://imgur.com/t3csynO,RvkWzKP#1
 
 
 
-Part 3: Add a tip button to the address bar of select pages to tip the page owner.
+##Part 3: Add a tip button to the address bar of select pages to tip the page owner.
 
 Try to find a bitcoin address in the metadata.  If it has it, add a Tip button to the address bar.  This will behave exactly like the tip button next to bitcoin addresses.
 
@@ -54,7 +54,7 @@ Design for a few special cases on social media websites like youtube.com, twitte
 
 
 
-Part 4: If tipping isn't available, send a tip request via email/social media.
+##Part 4: If tipping isn't available, send a tip request via email/social media.
 
 This basically makes asking someone to accept bitcoin as easy as a click.
 
