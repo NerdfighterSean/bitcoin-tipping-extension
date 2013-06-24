@@ -47,11 +47,11 @@ Example Tipping Page:
 
 
 
-##Part 3: Add a tip button to the address bar of select pages to tip the page owner.
+##Part 3: Add a tip button to the corner of select pages to tip the page owner.
 
-Try to find a bitcoin address in the metadata.  If it has it, add a Tip button to the address bar.  This will behave exactly like the tip button next to bitcoin addresses.
+Try to find a bitcoin address in the metadata.  If it has it, add a Tip button to the page corner.  This will behave exactly like the tip button next to bitcoin addresses.
 
-Design for a few special cases on social media websites like youtube.com, twitter, and facebook.  If no meta tag is found on the page, search only the video description or profile for a bitcoin address.  If one is found, treat it like the meta address and add the tip button to the address bar.
+Design for a few special cases on social media websites like youtube.com, twitter, and facebook.  If no meta tag is found on the page, search only the video description or profile for a bitcoin address.  If one is found, treat it like the meta address and add the tip button to the page corner.
 
 
 
@@ -70,10 +70,7 @@ https://twitter.com/intent/tweet?text=%40ErikVoorhees%20I%20want%20to%20tip%20yo
 
 Ex: <a href='https://twitter.com/intent/tweet?text=%40ErikVoorhees%20I%20want%20to%20tip%20you%20X%20bitcoin%2C%20but%20couldn%27t%20find%20an%20address%20in%20your%20profile.%20%20If%20you%20get%20one%20let%20me%20know. '>Tip 0.0100</a>
 
-And the same can be done for email addresses, youtube, facebook, tumblr. Any website that let's users have a profile and allows the sending of messages.  
-
-I think this is the most important part because it encourages each person to get a bitcoin address and publicly display it on the profile.  And the bitcoin icon might encourage those who have installed it to tip, even though the user didn't put the button there themselves.
-
+And the same can be done for email addresses, youtube, facebook, tumblr. Any website that let's users have a profile and allows the sending of messages.
 
 
 
