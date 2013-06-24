@@ -13,7 +13,9 @@ So if the address is "1qwertyuiopasdfghjklzxcvbnm" The first link will look like
 
 Support bitcoin links also. So if <a href='bitcoin:1sdlfkjewrlkj&amount=0.1&label=blah'>Tip me please!</a> is detected, put the Tip button/icon next to the linked text "Tip me please!".
 
-Example: http://imgur.com/t3csynO,RvkWzKP#0
+Example:
+
+![](http://imgur.com/t3csynO.png)
 
 
 
@@ -23,13 +25,13 @@ Example: http://imgur.com/t3csynO,RvkWzKP#0
 ##Part 2: Add a "Tip Later" option and keep track of these internally and remind the user to tip later.
 
 When the user clicks on "Tip Later", all of the tip details should be stored for later:
-    contact type (bitcoin)
-	contact info (the bitcoin address)
-	current date
-	webpage url
-	webpage title
-	webpage favicon
-	status (tipped, not tipped yet, or cancelled)
+ * contact type (bitcoin)
+ * contact info (the bitcoin address)
+ * current date
+ * webpage url
+ * webpage title
+ * webpage favicon
+ * status (tipped, not tipped yet, or cancelled)
 	
 Once a week, the extension should notify the user if they have any tips with the status of "not tipped". Allow the user to choose "Tip Later" to put it off another week or "Tip Now" to see the list of items on the "Tipping Page".
 
@@ -37,7 +39,9 @@ The "Tipping Page" will allow a user to set an amount to tip and then use slider
 
 Next to each item, there will be a bitcoin link that has the item's bitcoin address, webpage title, and the adjusted amount chosen by the user. The "Tip" link will open their bitcoin wallet.  When that "Tip" link is clicked, the extension should mark the item's status as tipped so the user won't accidentally tip the same thing twice.
 
-Example Tipping Page: http://imgur.com/t3csynO,RvkWzKP#1
+Example Tipping Page: 
+
+![](http://imgur.com/RvkWzKP.png)
 
 
 
