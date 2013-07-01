@@ -15,6 +15,10 @@ How to get the bitcoin address from social media websites and how to format the 
 
 http://twitter.com/NerdfighterSean
 
+###Pic
+
+![](https://github.com/NerdfighterSean/bitcoin-tipping-extension/raw/master/bitcoin-tipping-extension-twitter.png)
+
 ###Where to get the bitcoin address
 
     <p class="bio profile-field">Twitter User Description here. 12CEuFuAXLPQLe679ZHEsXqYgMfzT1p9qn</p>
@@ -47,6 +51,10 @@ https://twitter.com/intent/tweet?text=%40ErikVoorhees%20I%20want%20to%20tip%20yo
 ###Page URL
 
 https://www.youtube.com/watch?v=kGxPaXOLNos
+
+###Pic
+
+![](https://github.com/NerdfighterSean/bitcoin-tipping-extension/raw/master/bitcoin-tipping-extension-youtube.png)
 
 ###Where to get the bitcoin address
 
