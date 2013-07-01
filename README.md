@@ -66,7 +66,7 @@ If we are on a special case page, and no bitcoin address was found in the descri
 
 Example: I want to tip @ErikVoorhees on twitter.  I go to his twitter page https://twitter.com/ErikVoorhees.  The extension scans only his profile for a bitcoin address.  None is found.  The tip icon still appears in the address bar.  If "Tip Later" is chosen, the contact type is set to "twitter" and the contact info is set to "ErikVoorhees" in the table of tipped items being stored for later.  If an amount is chosen like "Tip 0.0100", then that is actually a link that leads the user to send a message to Erik saying they want to tip him but couldn't find a bitcoin address.
 
-![](http://imgur.com/z6MGyXx.png)
+![](https://github.com/NerdfighterSean/bitcoin-tipping-extension/blob/master/bitcoin-tipping-extension-twitter.png)
 
 https://twitter.com/intent/tweet?text=%40ErikVoorhees%20I%20want%20to%20tip%20you%20X%20bitcoin%2C%20but%20couldn%27t%20find%20an%20address%20in%20your%20profile.%20%20If%20you%20get%20one%20let%20me%20know. 
 
