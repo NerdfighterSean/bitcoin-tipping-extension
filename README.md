@@ -46,6 +46,8 @@ https://twitter.com/intent/tweet?text=%40ErikVoorhees%20I%20want%20to%20tip%20yo
 
 Ex: <a href='https://twitter.com/intent/tweet?text=%40ErikVoorhees%20I%20want%20to%20tip%20you%20X%20bitcoin%2C%20but%20couldn%27t%20find%20an%20address%20in%20your%20profile.%20%20If%20you%20get%20one%20let%20me%20know. '>Tip 0.0100</a>
 
+![](http://github.com/NerdfighterSean/bitcoin-tipping-extension/raw/master/bitcoin-tipping-extension-youtube.png)
+
 And the same can be done for email addresses, youtube, facebook, tumblr. Any website that let's users have a profile and allows the sending of messages.
 
 
