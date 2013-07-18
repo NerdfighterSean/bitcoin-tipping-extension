@@ -25,9 +25,7 @@
 * You can only withdraw 10 EUR or more.
 	
 ##Decentralized
-* Bitcoin requires no Sign Up.
-* There are no Terms of Use.
-* Your account can not be frozen.
+* Bitcoin requires no Sign Up, terms of use, usual bitcoin benefits...
 	
 ##Total Freedom
 * Flattr doesn't allow you to withdraw money you have already deposited.
