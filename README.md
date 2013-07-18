@@ -1,5 +1,11 @@
 # Bitcoin Tipping Browser Extension
 
+---
+
+This project's donation address is: 1FbiMFrhKjpmXwWzEB23Hq32Xuu5Vgn66b
+
+---
+
 ##Part 1: Make text or linked bitcoin addresses in the browser easier to tip.
 
 Use regex to detect bitcoin addresses in the browser.  
