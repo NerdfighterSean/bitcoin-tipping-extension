@@ -22,7 +22,35 @@ Example:
 
 
 
-##Part 2: Add a "Tip Later" option and keep track of these internally and remind the user to tip later.
+##Part 2: Add a tip button to the corner of select pages to tip the page owner.
+
+Try to find a bitcoin address in the metadata.  If it has it, add a Tip button to the page corner.  This will behave exactly like the tip button next to bitcoin addresses.
+
+Design for a few special cases on social media websites like youtube.com, twitter, and facebook.  If no meta tag is found on the page, search only the video description or profile for a bitcoin address.  If one is found, treat it like the meta address and add the tip button to the page corner.
+
+
+
+
+
+##Part 3: If tipping isn't available, send a tip request via email/social media.
+
+This basically makes asking someone to accept bitcoin as easy as a click.
+
+If we are on a special case page, and no bitcoin address was found in the description, change the function of the tip button to send the user a message asking them to get a bitcoin address and put it on their profile.
+
+Example: I want to tip @ErikVoorhees on twitter.  I go to his twitter page https://twitter.com/ErikVoorhees.  The extension scans only his profile for a bitcoin address.  None is found.  The tip icon still appears in the address bar.  If "Tip Later" is chosen, the contact type is set to "twitter" and the contact info is set to "ErikVoorhees" in the table of tipped items being stored for later.  If an amount is chosen like "Tip 0.0100", then that is actually a link that leads the user to send a message to Erik saying they want to tip him but couldn't find a bitcoin address.
+
+![](http://github.com/NerdfighterSean/bitcoin-tipping-extension/raw/master/bitcoin-tipping-extension-twitter.png)
+
+https://twitter.com/intent/tweet?text=%40ErikVoorhees%20I%20want%20to%20tip%20you%20X%20bitcoin%2C%20but%20couldn%27t%20find%20an%20address%20in%20your%20profile.%20%20If%20you%20get%20one%20let%20me%20know. 
+
+Ex: <a href='https://twitter.com/intent/tweet?text=%40ErikVoorhees%20I%20want%20to%20tip%20you%20X%20bitcoin%2C%20but%20couldn%27t%20find%20an%20address%20in%20your%20profile.%20%20If%20you%20get%20one%20let%20me%20know. '>Tip 0.0100</a>
+
+And the same can be done for email addresses, youtube, facebook, tumblr. Any website that let's users have a profile and allows the sending of messages.
+
+
+
+##Part 4:  Add a "Tip Later" option and keep track of these internally and remind the user to tip later.
 
 When the user clicks on "Tip Later", all of the tip details should be stored for later:
  * contact type (bitcoin)
@@ -42,38 +70,3 @@ Next to each item, there will be a bitcoin link that has the item's bitcoin addr
 Example Tipping Page: 
 
 ![](http://imgur.com/RvkWzKP.png)
-
-
-
-
-
-##Part 3: Add a tip button to the corner of select pages to tip the page owner.
-
-Try to find a bitcoin address in the metadata.  If it has it, add a Tip button to the page corner.  This will behave exactly like the tip button next to bitcoin addresses.
-
-Design for a few special cases on social media websites like youtube.com, twitter, and facebook.  If no meta tag is found on the page, search only the video description or profile for a bitcoin address.  If one is found, treat it like the meta address and add the tip button to the page corner.
-
-
-
-
-
-
-##Part 4: If tipping isn't available, send a tip request via email/social media.
-
-This basically makes asking someone to accept bitcoin as easy as a click.
-
-If we are on a special case page, and no bitcoin address was found in the description, change the function of the tip button to send the user a message asking them to get a bitcoin address and put it on their profile.
-
-Example: I want to tip @ErikVoorhees on twitter.  I go to his twitter page https://twitter.com/ErikVoorhees.  The extension scans only his profile for a bitcoin address.  None is found.  The tip icon still appears in the address bar.  If "Tip Later" is chosen, the contact type is set to "twitter" and the contact info is set to "ErikVoorhees" in the table of tipped items being stored for later.  If an amount is chosen like "Tip 0.0100", then that is actually a link that leads the user to send a message to Erik saying they want to tip him but couldn't find a bitcoin address.
-
-![](http://github.com/NerdfighterSean/bitcoin-tipping-extension/raw/master/bitcoin-tipping-extension-twitter.png)
-
-https://twitter.com/intent/tweet?text=%40ErikVoorhees%20I%20want%20to%20tip%20you%20X%20bitcoin%2C%20but%20couldn%27t%20find%20an%20address%20in%20your%20profile.%20%20If%20you%20get%20one%20let%20me%20know. 
-
-Ex: <a href='https://twitter.com/intent/tweet?text=%40ErikVoorhees%20I%20want%20to%20tip%20you%20X%20bitcoin%2C%20but%20couldn%27t%20find%20an%20address%20in%20your%20profile.%20%20If%20you%20get%20one%20let%20me%20know. '>Tip 0.0100</a>
-
-And the same can be done for email addresses, youtube, facebook, tumblr. Any website that let's users have a profile and allows the sending of messages.
-
-
-
-
